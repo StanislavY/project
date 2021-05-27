@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <!-- 1. Создать проект со следующими пользовательскими
+  элементами: TextView, EditText, Button, Switch, CheckBox,
+   ToggleButton. Для работы использовать LinearLayout.
+   Использовать различные шрифты, цвета, размеры, прочие
+   атрибуты.
+   2. Создать ещё один макет (если не получается, то проект)
+   с несколькими EditText, где использовать атрибут inputType:
+    text, textPersonName, phone, number, textPassword,
+    textEmailAddress и другие значения.
+   3. Добавить в проект элемент CalendarView.
+   4. * Разобраться, что такое параметр ems.-->
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+    android:layout_gravity="center"
+     android:inputType="text"
+     android:autofillHints="@string/some_text"
+     tools:ignore="LabelFor" />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:autofillHints="@string/person_name"
+       android:inputType="textPersonName"
+       tools:ignore="LabelFor" />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:autofillHints="@string/phone"
+       android:inputType="phone"
+       tools:ignore="LabelFor" />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:autofillHints="@string/number"
+       android:inputType="number"
+       tools:ignore="LabelFor" />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:autofillHints="@string/text_pasword"
+       android:inputType="textPassword"
+       tools:ignore="LabelFor" />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:autofillHints="@string/text_email"
+       android:inputType="textEmailAddress"
+       tools:ignore="LabelFor" />
+  <CalendarView
+      android:layout_marginTop="10dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      >
+
+  </CalendarView>
+
+
+
+</LinearLayout>

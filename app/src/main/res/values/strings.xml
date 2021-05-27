@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lesson1</string>
+    <string name="push">Push</string>
+    <string name="some_text">some text</string>
+    <string name="person_name">person name</string>
+    <string name="phone">phone</string>
+    <string name="foward">перейти на следующий экран</string>
+    <string name="number">number</string>
+    <string name="text_pasword">text_password</string>
+    <string name="text_email">email</string>
+</resources>
