@@ -27,7 +27,7 @@
      android:background="#DBFFBB"
      android:fontFamily="cursive"
      android:padding="20dp"
-     android:text="Hello World!"
+     android:text="Hello hello World!"
      android:textColor="@color/black"
      android:textSize="20sp"
      app:layout_constraintBottom_toBottomOf="parent"
